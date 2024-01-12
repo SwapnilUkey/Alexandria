@@ -1,0 +1,146 @@
+The asgi and wsgi files are the hooks
+For connecting to a Web Server's such as Apache or Engine X
+
+wsgi It is standard for connection and it stands for web server gateway integration
+and asgi is Asynchronous equivalent
+
+manage.py It is the local admin file This file is used for development purposes
+
+
+--------------------------------------------------------------
+chapter 2
+--------------------------------------------------------------
+
+. apps . py: defines app meta-data, required for discovery
+
+. view. py: functions or classes that serve web content
+
+. tests. py: unit tests
+
+. models.py: classes that map to database tables (ORM)
+
+. admin. py: management code for models
+
+. urls. py: app specific URL to view mappings
+
+. migrations/: folder for database migration scripts
+
+--------------------------------------------------------------
+
+Unit Testing
+. Django has overloaded Python's unit test framework
+· Project-level or app-level tests
+. Built-in mechanisms for:
+- Logging in
+- Visiting a view
+- Verifying a response
+. Does not use a browser
+- Can't validate JavaScript on the page
+
+Please refer to following link for creating new app and fetching django commands
+Ctrl + Alt + R
+
+https://www.jetbrains.com/help/pycharm/creating-django-application-in-a-project.html#:~:text=The%20manage.py%20utility%20starts,click%20the%20Create%20App%20link.
+-------------------------------------------------------------
+chapter 3
+-------------------------------------------------------------
+Django Templates
+· Separate mini-language for output
+- Supports several
+. Intentionally not Python
+· Designed for separation between coders and designers
+· Comprised of:
+- Content
+- Tags: actions like loops & conditionals
+- Filters: data adaptors
+. Not HTML specific
+. Compiled for efficiency
+
+-------------------------------------------------------------
+Common Tags
+· {% for item in container %} ... {% endfor %}
+- loop variables: forloop. counter, forloop.first,
+forloop. last, ...
+- looping, supports an empty clause
+· {% if condition %} ... {% endif %}
+- conditional block, supports elif and else clauses
+· {% comment "optional note" %} ...{% endcomment %}
+- contents not included when rendered
+
+-------------------------------------------------------------
+Common Filters
+. {{ data | upper }}
+- turns data into upper case
+- there is also a Lower
+
+. {{ data | first }}
+- returns first item in data
+- there is also a last
+
+· {{ data | pluralize }}
+- returns an "s" if data is >1
+- supports arguments to change how plural is done
+------------------------------------------------------------
+Django Output Types
+. views output content, usually by rendering a template
+· HTML references static content like:
+- images
+- CSS
+- JavaScript
+. static content can be served by Django, but shouldn't be in
+production
+· users can upload content: media
+. media content can be served by Django, but shouldn't be in
+production
+------------------------------------------------------------
+About Page
+. HTML is very repetitive
+· Template engine has inheritance tools, embodying DRY principle
+. Use Bootstrap for styling
+
+Composition Tags
+· {% extends 'filename' %}
+- this template inherits from a parent template
+· {% block blockname %} ... {% endblock %}
+- named section that can be inherited and overridden
+- block. super contains parent's content
+· {% include 'filename' %}
+- insert a template inside of this template
+· {% load packagename %}
+- loads a template tag set, like Python's import statement
+------------------------------------------------------------
+Bootstrap Bootcamp
+. Bootstrap uses a grid based system for layout
+. Based on rows and 12 columns
+· Responsive, adjusts to browser size, can specify wrap points
+· Widgets
+· <nav>
+- navigation bar
+· <main class="container">
+- container for content
+---------------------------------------------------------
+Home Page
+. Define a page at the base of the URL
+. Like all other URLs, must be explicitly mapped
+--------------------------------------------------------
+chapter 3
+-------------------------------------------------------
+ORM
+· Object Relational Model
+· Object-oriented mechanism for mapping data structures to
+permanent storage
+. Classes represent tables
+. Abstracts away the database
+- Good and bad!
+
+Django's ORM
+· Supports multiple databases:
+- PostgreSQL
+- MariaDB
+- MySQL
+- Oracle
+- SQLite
+. Third-party back-ends
+. Table migration management
+. Tools for bulk-loading/saving data
+
