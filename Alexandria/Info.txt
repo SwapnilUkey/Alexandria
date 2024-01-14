@@ -152,4 +152,26 @@ Django's ORM
 · Classes have managers for doing queries
 . Instances of objects correspond to rows in the query result
 
+from catalog.models import Book, Author
+dickens = Author.objects.create(last_name="Dickens", birth_year=1812)
+dickens
+<Author: Author object (1)>
+print(dickens)
+Author object (1)
+Author.objects.all()
+<QuerySet [<Author: Author object (1)>]>
+dickens.first_name
+''
+dickens.first_name = "Charles"
+dickens.save()
+result = Author.objects.get(id=1)
+result.last_name
+'Dickens'
+Book. objects. create(title="A Tale of Two Cities", author=dickens)
+Book. objects.create(title="Oliver Twist", author=dickens)
+Book. objects.create(title="Hard Times", author=dickens)
+Book.objects.all()
+<QuerySet [<Book: Book object (1)>, <Book: Book object (2)>, <Book: Book object (3)>]>
+
+
 
