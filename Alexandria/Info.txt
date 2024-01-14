@@ -173,5 +173,13 @@ Book. objects.create(title="Hard Times", author=dickens)
 Book.objects.all()
 <QuerySet [<Book: Book object (1)>, <Book: Book object (2)>, <Book: Book object (3)>]>
 
-
+-------------------------------------------------------
+Fixtures
+. Django provides commands for importing and exporting data
+· Supports:
+- JSON
+- JSONL
+- XML
+- YAML (if PyYAML is installed)
+. Primary keys are hard-coded
 
