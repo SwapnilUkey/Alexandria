@@ -29,5 +29,6 @@ urlpatterns = [
     path('home/', include('home.urls')),
     path('say_hello/', say_hello),
 
-    path('', home_views.home)
+    path('', home_views.home),
+    path('catalog/', include('catalog.urls')),
 ]
