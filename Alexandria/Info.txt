@@ -183,3 +183,60 @@ Fixtures
 - YAML (if PyYAML is installed)
 . Primary keys are hard-coded
 
+---------------------------------------------------
+Supported Databases
+. SQLite
+- Filename
+. PostgresSQL
+- Service file
+- Password file
+. MariaDB, MySQL, Oracle
+- Hostname, port, user, password
+. Third-party libraries for other databases
+- Non-relational database backends available
+------------------------------------------------------
+Testing
+. Django create an empty database for tests
+. Each test is done in a transaction and rolled back
+. Set-up and tear-down methods called before/after each test
+
+-------------------------------------------------------------
+More Django ORM
+Default query order
+. Field level validations
+. Row level validations
+· Advanced query capabilities:
+- Grouping
+- Aggregation
+- By value
+. Query objects
+· Manual querying
+---------------------------------------------------------
+Review
+. Django comes with an ORM
+. Map Python classes & objects to database tables and rows
+. Field declarations on model classes represent columns
+. Data columns: numbers, strings, booleans, etc.
+. Relationship columns
+. Migrations manage changes to ORM objects
+. Fixtures allow you to export and import data
+. Testing creates a special database
+-----------------------------------------------------
+chapter 5
+----------------------------------------------------
+Django Admin
+. Most web applications are all about CRUD:
+- Create
+- Read
+- Update
+-Delete
+. Django provides a library to map model objects to CRUD
+operations
+. Web interface to the database
+
+-------------------------------------------------------
+App's admin. py File
+. ModelAdmin declares interface
+
+· Register the Mode Admin against a Model object
+Customize class to modify the web interface
