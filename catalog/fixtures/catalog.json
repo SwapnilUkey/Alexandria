@@ -3,145 +3,295 @@
         "model": "catalog.author",
         "pk": 1,
         "fields": {
-            "last_name": "Smith",
-            "first_name": "John",
-            "birth_year": 1950
+            "last_name": "Shakespeare",
+            "first_name": "William",
+            "birth_year": 1564
         }
     },
     {
         "model": "catalog.author",
         "pk": 2,
         "fields": {
-            "last_name": "Johnson",
-            "first_name": "Emily",
-            "birth_year": 1975
+            "last_name": "Austen",
+            "first_name": "Jane",
+            "birth_year": 1775
         }
     },
     {
         "model": "catalog.author",
         "pk": 3,
         "fields": {
-            "last_name": "Williams",
-            "first_name": "David",
-            "birth_year": 1980
+            "last_name": "Hemingway",
+            "first_name": "Ernest",
+            "birth_year": 1899
         }
     },
     {
         "model": "catalog.author",
         "pk": 4,
         "fields": {
-            "last_name": "Brown",
-            "first_name": "Sarah",
-            "birth_year": 1965
+            "last_name": "Orwell",
+            "first_name": "George",
+            "birth_year": 1903
         }
     },
     {
         "model": "catalog.author",
         "pk": 5,
         "fields": {
-            "last_name": "Davis",
-            "first_name": "Michael",
-            "birth_year": 1990
+            "last_name": "Tolstoy",
+            "first_name": "Leo",
+            "birth_year": 1828
         }
     },
     {
         "model": "catalog.book",
         "pk": 1,
         "fields": {
-            "title": "Book Title 1",
-            "author": 2,
-            "created": "2024-01-13T12:00:00.000Z",
-            "updated": "2024-01-13T12:00:00.000Z"
+            "title": "Hamlet",
+            "author": 1,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     },
     {
         "model": "catalog.book",
         "pk": 2,
         "fields": {
-            "title": "Book Title 2",
-            "author": 3,
-            "created": "2024-01-14T12:00:00.000Z",
-            "updated": "2024-01-14T12:00:00.000Z"
+            "title": "Macbeth",
+            "author": 1,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     },
     {
         "model": "catalog.book",
         "pk": 3,
         "fields": {
-            "title": "Book Title 3",
-            "author": 4,
-            "created": "2024-01-15T12:00:00.000Z",
-            "updated": "2024-01-15T12:00:00.000Z"
+            "title": "Othello",
+            "author": 1,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     },
     {
         "model": "catalog.book",
         "pk": 4,
         "fields": {
-            "title": "Book Title 4",
-            "author": 5,
-            "created": "2024-01-16T12:00:00.000Z",
-            "updated": "2024-01-16T12:00:00.000Z"
+            "title": "Romeo and Juliet",
+            "author": 1,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     },
     {
         "model": "catalog.book",
         "pk": 5,
         "fields": {
-            "title": "Book Title 5",
+            "title": "King Lear",
             "author": 1,
-            "created": "2024-01-17T12:00:00.000Z",
-            "updated": "2024-01-17T12:00:00.000Z"
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     },
     {
         "model": "catalog.book",
         "pk": 6,
         "fields": {
-            "title": "Book Title 6",
+            "title": "Pride and Prejudice",
             "author": 2,
-            "created": "2024-01-18T12:00:00.000Z",
-            "updated": "2024-01-18T12:00:00.000Z"
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     },
     {
         "model": "catalog.book",
         "pk": 7,
         "fields": {
-            "title": "Book Title 7",
-            "author": 3,
-            "created": "2024-01-19T12:00:00.000Z",
-            "updated": "2024-01-19T12:00:00.000Z"
+            "title": "Sense and Sensibility",
+            "author": 2,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     },
     {
         "model": "catalog.book",
         "pk": 8,
         "fields": {
-            "title": "Book Title 8",
-            "author": 4,
-            "created": "2024-01-20T12:00:00.000Z",
-            "updated": "2024-01-20T12:00:00.000Z"
+            "title": "Emma",
+            "author": 2,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     },
     {
         "model": "catalog.book",
         "pk": 9,
         "fields": {
-            "title": "Book Title 9",
-            "author": 5,
-            "created": "2024-01-21T12:00:00.000Z",
-            "updated": "2024-01-21T12:00:00.000Z"
+            "title": "Mansfield Park",
+            "author": 2,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     },
     {
         "model": "catalog.book",
         "pk": 10,
         "fields": {
-            "title": "Book Title 10",
-            "author": 1,
-            "created": "2024-01-22T12:00:00.000Z",
-            "updated": "2024-01-22T12:00:00.000Z"
+            "title": "Persuasion",
+            "author": 2,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 11,
+        "fields": {
+            "title": "The Old Man and the Sea",
+            "author": 3,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 12,
+        "fields": {
+            "title": "A Farewell to Arms",
+            "author": 3,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 13,
+        "fields": {
+            "title": "For Whom the Bell Tolls",
+            "author": 3,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 14,
+        "fields": {
+            "title": "The Sun Also Rises",
+            "author": 3,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 15,
+        "fields": {
+            "title": "Islands in the Stream",
+            "author": 3,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 16,
+        "fields": {
+            "title": "1984",
+            "author": 4,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 17,
+        "fields": {
+            "title": "Animal Farm",
+            "author": 4,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 18,
+        "fields": {
+            "title": "Homage to Catalonia",
+            "author": 4,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 19,
+        "fields": {
+            "title": "Burmese Days",
+            "author": 4,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 20,
+        "fields": {
+            "title": "The Road to Wigan Pier",
+            "author": 4,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 21,
+        "fields": {
+            "title": "War and Peace",
+            "author": 5,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 22,
+        "fields": {
+            "title": "Anna Karenina",
+            "author": 5,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 23,
+        "fields": {
+            "title": "The Death of Ivan Ilyich",
+            "author": 5,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 24,
+        "fields": {
+            "title": "Resurrection",
+            "author": 5,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
+        }
+    },
+    {
+        "model": "catalog.book",
+        "pk": 25,
+        "fields": {
+            "title": "Childhood, Boyhood, Youth",
+            "author": 5,
+            "created": "2024-01-12T16:31:48.724Z",
+            "updated": "2024-01-12T16:31:48.724Z"
         }
     }
 ]

@@ -240,3 +240,21 @@ App's admin. py File
 
 · Register the Mode Admin against a Model object
 Customize class to modify the web interface
+-------------------------------------------------------
+Model Object Meta Data
+. Model objects have a meta data area
+. Controls behavior of queries and the admin:
+- Name in admin
+- Default order of queries
+Database table name control
+Permissions
+Indexes
+- Constraints
+-------------------------------------------------------
+Referencing Admin URLs
+· Django provides a way of naming URLs
+. No hard coding!
+. Admin page URLs are named
+. Cross reference items
+. list_display supports any callable
+
