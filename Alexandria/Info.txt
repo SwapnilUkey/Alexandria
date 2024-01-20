@@ -258,3 +258,14 @@ Referencing Admin URLs
 . Cross reference items
 . list_display supports any callable
 
+----------------------------------------------------
+Testing with the Admin
+. Tests start with an empty database:
+- Create any users or super-users
+' Access and reference the AdminSite object within a test
+. Admin utility lookup_field can be used to access admin fields
+during testing
+
+-----------------------------------------------------
+
+
