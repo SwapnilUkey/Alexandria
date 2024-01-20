@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'primer',
     "home.apps.HomeConfig",
-    "catalog.apps.CatalogConfig"
+    "catalog.apps.CatalogConfig",
+    "people.apps.PeopleConfig"
 ]
 
 MIDDLEWARE = [

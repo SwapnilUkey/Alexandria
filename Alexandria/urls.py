@@ -22,7 +22,7 @@ from primer.views import say_hello
 from home import views as home_views
 
 urlpatterns = [
-    path('favicon.ico/', RedirectView.as_view(url='/static/favicon.ico',)),
+    path('favicon.ico/', RedirectView.as_view(url='/static/favicon.ico', )),
 
     path('admin/', admin.site.urls),
 
@@ -31,4 +31,5 @@ urlpatterns = [
 
     path('', home_views.home),
     path('catalog/', include('catalog.urls')),
+    path('people/', include('people.urls')),
 ]

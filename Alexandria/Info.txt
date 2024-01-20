@@ -268,4 +268,36 @@ during testing
 
 -----------------------------------------------------
 
+Review
+. Django admin makes managing the CRUD operations of your Models
+almost-free
+· Staff/super-user only
+. Map AdminModel to ORM Model classes
+. list_display and list_filter attributes control presentation
+. Meta gives more control over your models
+- Order-by
+- Naming
+- Indexes
 
+Review
+. URLs can be named
+. Django admin URLs are named
+. Admin URLs can be parameterized for filtering
+. Write call-ables for full control over list_display attributes
+
+-----------------------------------------------------
+chapter 6
+----------------------------------------------------
+Django User Management
+. Create and manage users through the Django Admin
+. Additional fields can be associated with user accounts through:
+- User profiles
+- Custom user management
+--------------------------------------------------
+Authentication vs Authorization
+. Authentication: prove who you are
+. Authorization: what can you do
+. Admin / Staff authorization for Django Admin
+. Other views can be controlled
+- Check permissions explicitly in a view
+- @login_required decorator
