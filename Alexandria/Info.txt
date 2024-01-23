@@ -325,3 +325,20 @@ accounts/reset/<uidb64>/<token>/ [name='password_reset_confirm']
 accounts/reset/done/ [name='password_reset_complete']
 
 ------------------------------------------------
+Django and Email
+. Password reset workflow uses email
+. Django includes utilities for sending email messages
+. Several email backends:
+- SMTP
+- Console
+- File
+- In-memory
+- Dummy
+- Custom
+------------------------------------------------
+Password Reset Workflow
+. Reset form: enter email address of account to reset
+. Email template: template for email message, includes reset link
+. Reset "done": message informing user email is on the way
+. Confirm form: user enters new password
+Reset complete: informs user reset has taken place
